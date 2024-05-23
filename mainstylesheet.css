@@ -1,0 +1,163 @@
+.navigationBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10;
+    overflow: hidden;
+    background-color: #7A4988;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  .dropbtn li,a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+   .home.active, .navigationBar a:hover{
+    background-color: #663046;
+  }
+   
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #D6C5C7;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+  .dropdown-content a, .hover-me a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    border-bottom: 1px dotted #663046;
+  }
+  .sub-menu a{
+      color: white;
+      
+  }
+  .sub-menu a{
+  border-bottom: none;
+  
+  }
+  
+  
+  
+  .dropdown-content a:hover 
+  {
+      background-color: #663046;
+  }
+  .dropdown-content a:hover, .submenu a:hover
+  {
+      color: white;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .links a{
+     color: #7A4988;
+  }
+  .link a:hover{
+      color: #8589D6;
+  }
+  .navigationBar .active li:hover{
+      background-color: red;
+  }
+  .navigationBar .fa{
+      margin-right: 8px;
+  }
+  .fa-angle-right{
+      float: right;
+      
+  }
+  
+  .sub-menu{
+      display:none;
+  }
+  
+  
+  .hover-me:hover .sub-menu{
+      position: absolute;
+      display: block;
+      margin-top: -40px;
+      margin-left: 140px;
+    min-width: 160px;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-align: left;
+  }
+  
+  /* TABS STYLING */
+  
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.tab-link {
+    background-color: plum;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    transition: 0.3s;
+    font-size: 16px;
+    margin: 0 5px;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.tab-link:hover {
+    background-color: #dda0dd; /* Slightly darker plum on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+
+.tab-content {
+    display: none;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 90%; 
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    
+} 
+
+
+ .tab-content .iframe-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+} 
+
+.tab-link.active {
+    background-color: #FFF5EE;
+    
+    border-bottom: 2px solid #000;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); /* Stronger shadow for active tab */
+}
+
+  
